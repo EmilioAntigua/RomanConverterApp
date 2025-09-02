@@ -16,7 +16,6 @@ class RomanConverter
         (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")
     };
 
-    // Convierte Romano → Entero
     public static int RomanToInt(string roman)
     {
         int total = 0;
@@ -39,7 +38,6 @@ class RomanConverter
         return total;
     }
 
-    // Convierte Entero → Romano
     public static string IntToRoman(int num)
     {
         var result = "";
