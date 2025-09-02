@@ -28,7 +28,6 @@ class RomanConverter
 
             if (value > prevValue)
             {
-                // Restamos dos veces el valor previo (porque ya lo habíamos sumado)
                 total -= 2 * prevValue;
             }
 
